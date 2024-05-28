@@ -178,4 +178,62 @@ main .images .img {
 main .images .owl {
   position: absolute;
   top: 40rem;
+}
+
+#information-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#information-section .information span {
+  font-family: "Sacramento", cursive;
+  font-size: 20px;
+  color: #ea512e;
+  font-weight: 600;
+}
+#information-section .information h3 {
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 650;
+}
+#information-section .information p {
+  color: #6b6b84;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+#information-section .information .about-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+#information-section .information .about-list span {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #ea512e;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: -40px;
+}
+#information-section .information .about-list li {
+  width: 50%;
+  padding: 7px;
+  font-weight: 500;
+}
+#information-section .information .button button {
+  padding: 12px 35px;
+  background-color: #ea512e;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+#information-section .img img {
+  width: 546px;
 }/*# sourceMappingURL=style.css.map */
