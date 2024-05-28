@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+  font-family: "Roboto", sans-serif;
+}
+header .header .links {
+  display: flex;
+  padding: 12px 0px;
+}
+header .header .links ul {
+  list-style: none;
+}
+header .header .links ul .home {
+  color: #EA512e;
+}
+header .header .links ul a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #1b0238;
+}
+header .header .links ul a i {
+  font-size: 10px;
+}
+header .header .links ul a:hover {
+  color: #EA512e;
+}
+header .header .right-part {
+  display: flex;
+  padding: 10px 0px;
+  gap: 20px;
+}
+header .header .right-part a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  color: #1b0238;
+  vertical-align: middle;
+}
+header .header .right-part a i {
+  font-size: 10px;
+}
+header .header .right-part div {
+  margin-top: -13px;
+}
+header .header .right-part .btn {
+  background-color: #EA512e;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  padding: 12px 45px;
+  border: 1px solid #EA512e;
+  vertical-align: middle;
+}/*# sourceMappingURL=style.css.map */
