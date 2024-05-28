@@ -56,11 +56,39 @@ header{
                 font-weight: 500;
                 padding: 12px 45px;
                 border: 1px solid #EA512e;
-                
                 vertical-align: middle;
                 
             }
-
+            .btn:hover{
+                background-color: #f5890d;
+            }
         }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #ffff;
+                width: 280px;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+                z-index: 1;
+                .main{
+                    color: #EA512E;
+                }
+                a {
+                  padding: 10px 0;
+                  margin-top: 5px;
+                  text-decoration: none;
+                  display: block;
+                }
+              }
+        }
+        .dropdown:hover .dropdown-content {display: block;}
     }
 }
+
+
+  
+
+  

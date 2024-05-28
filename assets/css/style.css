@@ -58,4 +58,31 @@ header .header .right-part .btn {
   padding: 12px 45px;
   border: 1px solid #EA512e;
   vertical-align: middle;
+}
+header .header .right-part .btn:hover {
+  background-color: #f5890d;
+}
+header .header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+header .header .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 280px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  z-index: 1;
+}
+header .header .dropdown .dropdown-content .main {
+  color: #EA512E;
+}
+header .header .dropdown .dropdown-content a {
+  padding: 10px 0;
+  margin-top: 5px;
+  text-decoration: none;
+  display: block;
+}
+header .header .dropdown:hover .dropdown-content {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
