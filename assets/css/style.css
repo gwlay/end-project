@@ -9,6 +9,8 @@ header .header {
   justify-content: space-between;
   padding: 25px 0px;
   font-family: "Roboto", sans-serif;
+  margin-bottom: -25px;
+  margin-top: -10px;
 }
 header .header .links {
   display: flex;
@@ -85,4 +87,95 @@ header .header .dropdown .dropdown-content a {
 }
 header .header .dropdown:hover .dropdown-content {
   display: block;
+}
+
+main #hero-section {
+  background-color: #f5edec;
+  padding: 33px;
+}
+main #hero-section .left-part {
+  align-items: center;
+  margin: 8rem 0px 0px 0px;
+}
+main #hero-section .left-part span {
+  font-size: 16px;
+  color: #ea512e;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+main #hero-section .left-part h1 {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Catamaran", sans-serif;
+  color: #1b0238;
+  font-weight: bold;
+}
+main #hero-section .left-part p {
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+main #hero-section .left-part .buttons {
+  margin-top: 35px;
+}
+main #hero-section .left-part .buttons .learn {
+  padding: 12px 35px;
+  background-color: #ea512e;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+main #hero-section .left-part .buttons .learn:hover {
+  background-color: #f5890d;
+}
+main #hero-section .left-part .buttons .find {
+  padding: 12px 35px;
+  background-color: #f5890d;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+main #hero-section .left-part .buttons .find:hover {
+  background-color: #EA512E;
+}
+main #hero-section .image img {
+  width: 700px;
+}
+main #hero-section .image {
+  position: relative;
+}
+main #hero-section .first-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .images img {
+  position: absolute;
+  top: 112px;
+  left: 50%;
+  width: 100px;
+}
+main .images .shape {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 210px;
+}
+main .images .img {
+  position: absolute;
+  top: 37rem;
+  left: 0;
+  z-index: 1;
+  width: 230px;
+}
+main .images .owl {
+  position: absolute;
+  top: 40rem;
 }/*# sourceMappingURL=style.css.map */
