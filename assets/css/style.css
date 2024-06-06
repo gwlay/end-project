@@ -334,9 +334,13 @@ main .images .owl {
 #classes {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-image: url("/assets/images/class-shape-2.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 280px;
 }
 #classes .class .class-img img {
-  width: 356px;
+  width: 380px;
   border-radius: 5px 5px 0 0;
 }
 #classes .class .class-content {
@@ -344,5 +348,142 @@ main .images .owl {
   padding: 45px 30px 30px;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-  width: 356px;
+  width: 380px;
+}
+#classes .class .class-content h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: "Catamaran", sans-serif;
+  color: #1b0238;
+  font-weight: bold;
+}
+#classes .class .class-content p {
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+#classes .class .about ul {
+  list-style: none;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #ea512e;
+  padding-left: 0;
+  display: flex;
+  gap: 10px;
+}
+#classes .class .about ul span {
+  color: #ea512e;
+  font-size: 15px;
+  font-weight: 500;
+}
+#classes .class .about ul li {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+#classes .class .join button {
+  padding: 10px 30px;
+  background-color: #ea512e;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+#events-section {
+  background-image: url("/assets/images/event-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+#events-section .event-title {
+  text-align: center;
+  margin-bottom: 45px;
+  padding-top: 100px;
+}
+#events-section .event-title span {
+  font-family: "Sacramento", cursive;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+#events-section .event-title h2 {
+  font-size: 45px;
+  margin-top: 15px;
+  font-family: "Catamaran", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+#events-section .event-box {
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  width: 650px;
+  height: 200px;
+}
+#events-section .event-box .event-img {
+  padding-top: 20px;
+}
+#events-section .event-box .event-img img {
+  width: 127px;
+}
+#events-section .event-box .event-content h3 {
+  font-size: 25px;
+  color: #1b0238;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 700;
+  margin-left: 25px;
+}
+#events-section .event-box .event-content ul {
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+#events-section .event-box .event-content ul i {
+  font-size: 20px;
+  color: #ea512e;
+}
+#events-section .event-box .event-content ul li {
+  font-size: 15px;
+  font-weight: 530;
+  margin-bottom: 12px;
+  padding-left: 25px;
+  font-family: "Catamaran", sans-serif;
+}
+#events-section .event-box .event3 {
+  padding-left: 35px;
+}
+#events-section .event-box .event2 {
+  padding-left: 40px;
+}
+#events-section .event-box .event4 {
+  padding-left: 40px;
+}
+#events-section .event-box .event-date {
+  text-align: center;
+  padding-top: 10px;
+}
+#events-section .event-box .event-date h4 {
+  font-size: 80px;
+  color: #ea512e;
+  margin-bottom: 0;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+#events-section .event-box .event-date span {
+  font-size: 20px;
+  color: #ea512e;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+#facilities-section {
+  padding-top: 100px;
 }/*# sourceMappingURL=style.css.map */
