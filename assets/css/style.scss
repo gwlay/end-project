@@ -582,7 +582,70 @@ main{
 
 #facilities-section{
     padding-top: 100px;
+    display: flex;
+    .facilities-item{
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+   
+    .number {
+        width: 100px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #EA512E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        span{
+            font-size: 30px;
+            font-weight: 600;
+            font-family: "Catamaran", sans-serif;
+        }
+    }
 
+    .safe{
+        background-color: #fdbea8;
+    }
+    .equipment{
+        background-color: #b6fdd6;
+    }
+    .teachers-expert{
+        background-color: #fd91a8;
+    }
+    .art{
+        background-color: #fce0ad;;
+    }
+    .sport{
+        background-color: #cca0fe;
+    }
+
+
+    
+    
+    .number:hover{
+        color: #fff;
+        background-color: #f5890d;
+    }
+    
+    .text{
+        p{
+            margin-top: 17px;
+            color: #6b6b84;
+            font-weight: 400;
+            font-family: "Roboto", sans-serif;
+            font-size: 16px;
+        }
+    }
+
+    .img{
+        margin-top: 60px;
+        img{
+           width: 360px;
+    
+    }
+    }
 }
 
     

@@ -486,4 +486,56 @@ main .images .owl {
 
 #facilities-section {
   padding-top: 100px;
+  display: flex;
+}
+#facilities-section .facilities-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+#facilities-section .number {
+  width: 100px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #EA512E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#facilities-section .number span {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Catamaran", sans-serif;
+}
+#facilities-section .safe {
+  background-color: #fdbea8;
+}
+#facilities-section .equipment {
+  background-color: #b6fdd6;
+}
+#facilities-section .teachers-expert {
+  background-color: #fd91a8;
+}
+#facilities-section .art {
+  background-color: #fce0ad;
+}
+#facilities-section .sport {
+  background-color: #cca0fe;
+}
+#facilities-section .number:hover {
+  color: #fff;
+  background-color: #f5890d;
+}
+#facilities-section .text p {
+  margin-top: 17px;
+  color: #6b6b84;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+#facilities-section .img {
+  margin-top: 60px;
+}
+#facilities-section .img img {
+  width: 360px;
 }/*# sourceMappingURL=style.css.map */
