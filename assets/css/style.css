@@ -4,14 +4,17 @@
   box-sizing: border-box;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
 header .header {
   display: flex;
   justify-content: space-between;
-  padding: 25px 0px;
+  padding: 15px 0px 0px 0px;
   font-family: "Roboto", sans-serif;
-  margin-bottom: -25px;
-  margin-top: -10px;
-  background-color: #fff;
 }
 header .header .links {
   display: flex;
@@ -487,6 +490,9 @@ main .images .owl {
 #facilities-section {
   padding-top: 100px;
   display: flex;
+  background-image: url("/assets/images/value-shape-1.png");
+  background-repeat: no-repeat;
+  background-position: 15px 20px;
 }
 #facilities-section .facilities-item {
   display: flex;
@@ -538,4 +544,66 @@ main .images .owl {
 }
 #facilities-section .img img {
   width: 360px;
+}
+
+#teachers-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#teachers-section .teacher .img img {
+  width: 400px;
+  margin-left: 15px;
+}
+#teachers-section .teacher .about-teacher h3 {
+  margin-bottom: 0;
+  font-size: 25px;
+  color: #1b0238;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+#teachers-section .teacher .about-teacher span {
+  display: block;
+  color: #ea512e;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#testimonials-section {
+  background-color: #fef3e6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#testimonials-section .persons {
+  display: flex;
+  gap: 20px;
+}
+#testimonials-section .persons .img img {
+  border-radius: 50%;
+  width: 370px;
+}
+#testimonials-section .persons .testimonials p {
+  color: #6b6b84;
+  font-size: 24px;
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding-top: 70px;
+}
+#testimonials-section .persons .testimonials .person {
+  margin-top: 25px;
+}
+#testimonials-section .persons .testimonials .person h3 {
+  color: #1b0238;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+#testimonials-section .persons .testimonials .person span {
+  font-size: 16px;
+  color: #ea512e;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
