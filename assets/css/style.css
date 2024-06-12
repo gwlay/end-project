@@ -670,4 +670,17 @@ main .images .owl {
 #news-section .news .join button:hover {
   background-color: #f5890d;
   border-color: #EA512E;
+}
+
+#end-section {
+  background-color: #fdf9f4;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#end-section .programmes {
+  display: flex;
+  justify-content: space-around;
+}
+#end-section .programmes img {
+  width: 170px;
 }/*# sourceMappingURL=style.css.map */
