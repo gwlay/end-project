@@ -705,4 +705,125 @@ footer .bottom-footer p a {
 }
 footer .bottom-footer p a:hover {
   color: white;
+}
+
+.top-footer {
+  background-image: url("/assets/images/footer-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.top-footer h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.top-footer p {
+  color: white;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+  width: 261px;
+}
+.top-footer .social-links {
+  display: flex;
+  list-style: none;
+  margin-top: 25px;
+  padding-left: 0;
+}
+.top-footer .social-links li {
+  margin-right: 10px;
+}
+.top-footer .social-links li i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ea512e;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+}
+.top-footer .contact .text {
+  font-size: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-family: "Catamaran", sans-serif;
+  font-weight: bold;
+}
+.top-footer .contact ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+.top-footer .contact ul li {
+  margin-bottom: 20px;
+  color: #ffffff;
+  padding-left: 0px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.top-footer .contact ul li i {
+  font-size: 20px;
+  color: #ea512e;
+}
+.top-footer .contact ul li span {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.top-footer .contact ul li a {
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 25px;
+}
+.top-footer .activities h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.top-footer .activities ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.top-footer .activities ul li {
+  margin-bottom: 18px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.top-footer .photos h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.top-footer .photos ul {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -5px;
+}
+.top-footer .photos li {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 5px;
+}
+.top-footer .photos li img {
+  width: 84px;
 }/*# sourceMappingURL=style.css.map */
