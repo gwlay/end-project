@@ -992,3 +992,135 @@ footer{
     }
 
 
+#first-section{
+    background-image: url("/assets/images/page-banner-1\ \(1\).jpg  ");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    .text{
+        text-align: center;
+        h2{
+            color: #fff;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+        }
+
+        ul{
+            text-align: center;
+            padding-left: 0;
+            margin-bottom: 0;
+            
+
+            li{
+                display: inline-block;
+                list-style-type: none;
+                padding-left: 15px;
+                font-weight: 600;
+                color: #ea512e;
+                margin-left: 0;   
+            }
+
+            .home{
+                color: #ffff;
+            }
+        }
+    }
+}
+
+.contact-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+    .contact-form{
+        h3{
+            margin-bottom: 25px;
+            font-size: 25px;
+            color: #1b0238;
+            font-family: "Catamaran", sans-serif;
+            font-weight: bold;
+
+        }
+
+        input{
+            height: 60px;
+            padding: 0 0 0 15px;
+            color: #1b0238;
+            border: 1px solid #f1f1f1;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 400;
+            width: 100%;
+            margin-top: 10px;
+
+        }
+
+        textarea{
+            color: #1b0238;
+            border: 1px solid #f1f1f1;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 400;
+            height: auto;
+            width: 100%;
+            margin-top: 10px;
+            padding: 15px 0 0 15px;
+        }
+
+        .btn{
+            button{
+                padding: 12px 35px;
+                background-color: #ea512e;
+                color: #ffffff ;
+                border-radius: 10px;
+                font-size: 16px;
+                font-weight: 500;
+                border: none;
+            }
+
+            button:hover{
+                background-color: #f5890d;
+            }
+        }
+
+    }
+
+    .right-area{
+        h3{
+            margin-bottom: 25px;
+            font-size: 25px;
+            color: #1b0238;
+            font-family: "Catamaran", sans-serif;
+            font-weight: bold;
+            padding-left: 25px;
+        }
+
+        ul{
+            padding-left: 0;
+            margin-bottom: 25px;
+            list-style-type: none;
+            margin-top: 0;
+
+            li{
+                margin-bottom: 12px;
+                padding-left: 25px;
+
+                i{
+                    color: #ea512e;
+                    font-size: 20px;
+                }
+
+                span{
+                    font-weight: 600;
+                    color: #1b0238;
+                }
+            }
+        }
+    }
+}
